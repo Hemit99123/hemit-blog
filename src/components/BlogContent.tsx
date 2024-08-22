@@ -15,7 +15,6 @@ const BlogContent = ({ posts }: Props) => {
         <Link
           href={{
             pathname: `/post/${post?.slug?.current}`,
-            query: { slug: post?.slug?.current },
           }}
           key={post?._id}
         >
